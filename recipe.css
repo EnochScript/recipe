@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(250, 221, 231);
+}
+.background{
+    background-color: white;
+    width: 50%;
+    height: 105rem;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    border-radius: 1em;
+}
+#pic1{
+    width: 90%;
+    height: 15%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    border-radius: 45px;
+}
+.simple_heading{
+    text-align: justify;
+    padding-left: 5%;
+}
+.sentence1{
+    padding-left: 5%;
+}
+.preparation{
+    background-color: rgb(250, 221, 231, 0.4);
+    width: 90%;
+    height: 11%;
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.prep_time{
+    padding-top: 3%;
+    padding-left: 2%;
+    color: rgb(110, 4, 41);
+    font-weight: bolder;
+}
+li::marker{
+    color: rgb(110, 4, 41) ;
+}
+.list1{
+    line-height: 2rem;
+}
+.div2{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ingredients{
+ margin-top: -3%;
+}
+.list2{
+    margin-left: -2%;
+    line-height: 2rem;
+}
+.instruction{
+    margin-top: 4%;
+}
+.list3{
+    margin-left: -2%;
+    line-height: 2rem;
+}
+.table1{
+    display: flex;
+    margin-left: 5%;
+    gap: 39%;
+}
+.table2{
+    margin-left: 5%;
+    display: flex;
+    gap: 42%;
+}
+.table3{
+    margin-left: 5%;
+    display: flex;
+    gap: 40%;
+}
+.table4{
+    margin-left: 5%;
+    display: flex;
+    gap: 44%;
+}
+.cal_value{
+    color: rgb(119, 43, 13);
+    font-weight: bolder;
+}
+.carb_value{
+    color: rgb(119, 43, 13);
+    font-weight: bolder;
+}
+.pro_value{
+    color: rgb(119, 43, 13);
+    font-weight: bolder;
+}
+.fat_value{
+    color: rgb(119, 43, 13);
+    font-weight: bolder;
+}
+.ingredients{
+    color: rgb(119, 43, 13);
+}
+.instruction{
+    color: rgb(119, 43, 13);
+}
+.nutrition{
+    color: rgb(119, 43, 13);
+}
+
+
