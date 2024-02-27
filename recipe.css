@@ -1,6 +1,11 @@
 body{
     background-color: rgb(250, 221, 231);
 }
+.container1{
+    background-color: rgb(250, 221, 231);
+    width: 100%;
+    height: 100%;
+}
 .background{
     background-color: white;
     width: 50%;
@@ -110,5 +115,60 @@ li::marker{
 .nutrition{
     color: rgb(119, 43, 13);
 }
-
+@media screen and (max-width:600px)
+{   body{
+    background-color: white;
+}
+    .background{
+        background-color: white;
+        width: 100%;
+        height: 132rem;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+    #pic1{
+        width: 100%;
+        height: 10%;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+        border-radius: 0;
+    }
+    .simple_heading{
+        text-align: justify;
+        padding-left: 5%;
+        font-size: 2.8rem;
+    }
+    .preparation{
+        background-color: rgb(250, 221, 231, 0.4);
+        width: 90%;
+        height: 8%;
+        margin-top: 6%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .table1{
+        display: flex;
+        margin-left: 5%;
+        gap: 39%;
+    }
+    .table2{
+        margin-left: 5%;
+        display: flex;
+        gap: 44%;
+    }
+    .table3{
+        margin-left: 5%;
+        display: flex;
+        gap: 41%;
+    }
+    .table4{
+        margin-left: 5%;
+        display: flex;
+        gap: 50%;
+    }
+}
 
